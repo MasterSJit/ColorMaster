@@ -1,8 +1,12 @@
 {
   "name": "masterColorEthicks",
+	"icon": "assets/icon.png",
   "displayName": "ColorMaster",
+  "author": "Master S Jit",
+	"license": "SisshiOS",
+	"publisher": "MasterSJit",
   "description": "Colorful Theme for visual studio code. Enjoy the rainbows on your workspace",
-  "version": "0.0.1",
+  "version": "0.2.2",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -14,12 +18,23 @@
       {
         "label": "Color Master",
         "uiTheme": "vs-dark",
-        "path": "./themes/Color Master-color-theme.json"
+        "path": "./themes/ColorMaster-color-theme.json"
       }
-    ]
+    ],
+    "views": {
+			"explorer": [
+				{
+					"type": "webview",
+					"id": "colormaster.hello",
+					"name": "ColorMaster"
+				}
+			]
+		}
+
   },
   "repository": {
 		"type": "git",
 		"url": "https://github.com/MasterSJit/ColorMaster.git"
-	}
+	},
+  "main": "./out/extension.js"
 }
