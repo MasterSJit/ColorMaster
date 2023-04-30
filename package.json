@@ -1,0 +1,25 @@
+{
+  "name": "masterColorEthicks",
+  "displayName": "ColorMaster",
+  "description": "Colorful Theme for visual studio code. Enjoy the rainbows on your workspace",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Color Master",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Color Master-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/MasterSJit/ColorMaster.git"
+	}
+}
